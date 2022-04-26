@@ -27,7 +27,7 @@ module.exports = {
         'body' : ['Nunito Sans']
       },
       boxShadow:{
-        'buttonShadow' :'rgba(0, 0, 0, 0.24) 0px 3px 8px;'
+        'buttonShadow' :'0px 3px 8px rgba(0, 0, 0, 0.24) ;'
       }
     },
   },
