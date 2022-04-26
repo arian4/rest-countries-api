@@ -1,4 +1,4 @@
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import {Routes,Route,HashRouter} from 'react-router-dom'
 import Home from './pages/Home';
 import Country_Details from './pages/Country_Details';
 import useDarkMode from './useDarkMode';
@@ -40,12 +40,12 @@ function App() {
       </div>
 
     </div>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/countries/:name' element={<Country_Details/>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
     
   
